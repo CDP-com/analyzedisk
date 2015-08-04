@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest productname="analyzedisk" version="1">
+    <pubdate>7/30/15 10:37 AM</pubdate>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/analyzedisk.js</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\analyzedisk.js</dest>
+        <hash type="MD5">5CE37654B142C645AAE8DD7906316B35</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/analyzedisklib.js</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\analyzedisklib.js</dest>
+        <hash type="MD5">6A9FDA0328CF1F6636B29FF7E5110264</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/deny.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\deny.html</dest>
+        <hash type="MD5">3210A7AF55C01FBF8BD042F5D42ECF28</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/diskcheck.vbs</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\diskcheck.vbs</dest>
+        <hash type="MD5">F4B811920853AF55137FFC11B09C9B06</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/diskcheck.txt</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\diskcheck.txt</dest>
+        <hash type="MD5">9D9578346DB1511725964A5CBB8324F8</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/disklog.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\disklog.html</dest>
+        <hash type="MD5">45FFE50EA3ECC36B7B037A8397F8FA0C</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/index.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\index.html</dest>
+        <hash type="MD5">1A40D1CB8D27C1533E8EF6EC9CD01F96</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/main.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\main.html</dest>
+        <hash type="MD5">6F941B62F739C2498DBC7548FADB2896</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/pipedown.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\pipedown.html</dest>
+        <hash type="MD5">A00CB00CDEA7B3CFD5CA02019143906B</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/startmom.vbs</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\startmom.vbs</dest>
+        <hash type="MD5">90AB774771D574C1A921BA02334FA974</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/unknown.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\unknown.html</dest>
+        <hash type="MD5">0D56839728B6A2414900F8F17B53421C</hash>
+    </file>
+    <file>
+        <source>http://snapback-apps.com/analyzedisk/updating.html</source>
+        <dest>%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\updating.html</dest>
+        <hash type="MD5">7503FF85F18AE4BED7CDB51E3EF42E0B</hash>
+    </file>
+    <buttons>
+        <name>checkdisk</name>
+        <adminreq>true</adminreq>
+        <default>false</default>
+        <ui>no</ui>
+        <command>wscript //nologo "%ALLUSERSPROFILE%\cdp\snapback\apps\analyzedisk\diskcheck.vbs"</command>
+    </buttons>
+    <buttons>
+        <name>openremote</name>
+        <adminreq>false</adminreq>
+        <default>false</default>
+        <ui>no</ui>
+        <command>wscript //nologo "%ALLUSERSPROFILE%\cdp\snapback\apps\Common\Scripts\openremotepg.js"</command>
+    </buttons>
+    <buttons>
+        <name>takemelocal</name>
+        <adminreq>false</adminreq>
+        <default>false</default>
+        <ui>yes</ui>
+        <command>wscript //nologo "%ALLUSERSPROFILE%\cdp\snapback\apps\Common\Scripts\golocal.js"</command>
+    </buttons>
+    <buttons>
+        <name>updateapp</name>
+        <adminreq>false</adminreq>
+        <default>false</default>
+        <ui>yes</ui>
+        <command>wscript //nologo "%ALLUSERSPROFILE%\cdp\snapback\apps\Common\Scripts\updatefly.js" "analyzedisk"</command>
+    </buttons><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1571150774"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>C/KcC/W7COZsnlw9zl5gc+tIb10=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-692556418"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>4L6RcPc2mIzGJrfO9wwwjPdZQC8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-1170787368">JWTvQFBfeM0PApJMr8iqz7KBZkj93fALMYumphnaCtmba28gjdOi7FH4LfNfXRt61V4b5Ies/AOXgV2OaTpugGtO2maCNd8gNcGOd4LQf1tA7q9EJY9im8ub2ER7h+UMebLHWLftUUSgx4FiDxCA5DcsonQv2sXT/r2DB+NnoSw5oplUWyXvtVrEjdfHpjAJo/aCKIAHaWE2+99pawbM4ZIDs8iEbNE3Eo6QXTusGIyAXjksZhrl950vY5ZqT6pG2gK6THDuISQXhf/XefJy1ILFEJjKZYarZ1mp6QlPXkHVGmlkd3FgCLqXXDa/ALcHqMjUQFUIPfM38mBtjJRSoQ==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>3aP9ZkN7+sST+pkWDg2HN0zg++Q0F9ArpGpqJJEog74FLBPKpmFgakQDaM6AIl5fzRknIuSz71a4s1PnRlR1CYAsFGspnzaVFp8DMIXUaRs2YvPW3Phm/+Wg8exTtLpdgNRte4UtAZbJ68oxAgTYFoluArCZDO59mKUMgcGUTvGOU4R4ym9QchVnIZlW5oPRW8LtRdQP0CXIFYUgrBqQw819L+ZcEfXpFcJV2XPu+YQp4Ln9hLVpbKZZpZ+EAAe9HJ0dZiCUE6DwFzsdPgonjGAEUBkwmVpPbCRyC9a6ghqpuALUnB3rOLppGvWiu0Bd7daTmqWZE+1K6JVRPB91FQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIFIjCCBAqgAwIBAgIQD6ES90EqIV1n4nlw3tpCGjANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxMDAuBgNVBAMTJ1N5bWFudGVjIENsYXNzIDMgU0hBMjU2IENvZGUgU2lnbmluZyBDQTAeFw0xNTA0MjgwMDAwMDBaFw0xNjA1MjMyMzU5NTlaMIGJMQswCQYDVQQGEwJVUzEQMA4GA1UECBMHRmxvcmlkYTEaMBgGA1UEBxMRQWx0YW1vbnRlIFNwcmluZ3MxJTAjBgNVBAoUHENvbHVtYmlhIERhdGEgUHJvZHVjdHMsIEluYy4xJTAjBgNVBAMUHENvbHVtYmlhIERhdGEgUHJvZHVjdHMsIEluYy4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdo/1mQ3v6xJP6mRYODYc3TOD75DQX0CukamokkSiDvgUsE8qmYWBqRANozoAiXl/NGSci5LPvVrizU+dGVHUJgCwUaymfNpUWnwMwhdRpGzZi89bc+Gb/5aDx7FO0ul2A1G17hS0BlsnryjECBNgWiW4CsJkM7n2YpQyBwZRO8Y5ThHjKb1ByFWchmVbmg9Fbwu1F1A/QJcgVhSCsGpDDzX0v5lwR9ekVwlXZc+75hCnguf2EtWlsplmln4QAB70cnR1mIJQToPAXOx0+CieMYARQGTCZWk9sJHIL1rqCGqm4AtScHes4umka9aK7QF3t1pOapZkT7UrolVE8H3UVAgMBAAGjggGNMIIBiTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDArBgNVHR8EJDAiMCCgHqAchhpodHRwOi8vc3Yuc3ltY2IuY29tL3N2LmNybDBmBgNVHSAEXzBdMFsGC2CGSAGG+EUBBxcDMEwwIwYIKwYBBQUHAgEWF2h0dHBzOi8vZC5zeW1jYi5jb20vY3BzMCUGCCsGAQUFBwICMBkMF2h0dHBzOi8vZC5zeW1jYi5jb20vcnBhMBMGA1UdJQQMMAoGCCsGAQUFBwMDMFcGCCsGAQUFBwEBBEswSTAfBggrBgEFBQcwAYYTaHR0cDovL3N2LnN5bWNkLmNvbTAmBggrBgEFBQcwAoYaaHR0cDovL3N2LnN5bWNiLmNvbS9zdi5jcnQwHwYDVR0jBBgwFoAUljtT8Hkzl699g+8uK8zKt4YecmYwHQYDVR0OBBYEFLQ3Ihgx3dQ+9i3DAH7nHm5b84+VMBEGCWCGSAGG+EIBAQQEAwIEEDAWBgorBgEEAYI3AgEbBAgwBgEBAAEB/zANBgkqhkiG9w0BAQsFAAOCAQEAjeZoANk5OPoOVIK4DyS7Sptlr0jvLOlN2KyRDLhEDqxJ13dAGV6VEovBbewCxVgyiRaMTJpdHMJO8O7UMtICeHJ4yM02DTQozDbKfixwnBa7eitob4V4nq2w+c4IgYQ+3R4hsZjVxDmOq2YUKLtEqYkCpleHmsQyuTmObVf2oMMNkkBtQ5lB1n2HpLZ5yOPTOsFHpSuznSEEcMaJKCDVpO922tJVbqbNbjuk3KVZvPTNlXMRPYNe8kkTTB+sCRGpuGNhybdJfucVZUxZdJyz0VVwZxfW2UNH2D+ZtbsKxiphJozt8yAMY8GY5DnMT9w/IdkSIw8aJnSGM8JndS0ejw==</ds:X509Certificate><ds:X509Certificate>MIIE0zCCA7ugAwIBAgIQGNrRniZ96LtKIVjNzGs7SjANBgkqhkiG9w0BAQUFADCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMDYxMTA4MDAwMDAwWhcNMzYwNzE2MjM1OTU5WjCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvJAgIKXo1nmAMqudLO07cfLw8RRy7K+D+KQL5VwijZIUVJ/XxrcgxiV0i6CqqpkKzj/i5Vbext0uz/o9+B1fs70PbZmIVYc9gDaTY3vjgw2IIPVQT60nKWVSFJuUrjxuf6/WhkcIzSdhDY2pSS9KP6HBRTdGJaXvHcPaz3BJ023tdS1bTlr8Vd6Gw9KIl8q8ckmcY5fQGBO+QueQA5N06tRn/Arr0PO7gi+s3i+z016zy9vA9r911kTMZHRxAy3QkGSGT2RT+rCpSx4/VBEnkjWNHiDxpg8v+R70rfk/Fla4OndTRQ8Bnc+MUCH7lP59zuDMKz10/NIeWiu5T6CUVAgMBAAGjgbIwga8wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwbQYIKwYBBQUHAQwEYTBfoV2gWzBZMFcwVRYJaW1hZ2UvZ2lmMCEwHzAHBgUrDgMCGgQUj+XTGoasjY5rw8+AatRIGCx7GS4wJRYjaHR0cDovL2xvZ28udmVyaXNpZ24uY29tL3ZzbG9nby5naWYwHQYDVR0OBBYEFH/TZafC3ey78DAJ80M5+gKvMzEzMA0GCSqGSIb3DQEBBQUAA4IBAQCTJEowX2LP2BqYLz3q3JktvXf2pXkiOOzEp6B4Eq1iDkVwZMXnl2YtmAl+X6/WzChl8gGqCBpH3vn5fJJaCGkgDdk+bW48DW7Y5gaRQBi5+MHt39tBquCWIMnNZBU4gcmU7qKEKQsTb47bDN0lAtukixlE0kF6BWlKWE9gyn6CagsCqiUXObXbf+eEZSqVir2G3l6BFoMtEMze/aiCKm0oHw0LxOXnGiYZ4fQRbxC1lfznQgUy286dUV4otp6F01vvpX1FQHKOtw5rDgb7MzVIcbidJ4vEZV8NhnacRHr2lVz2XTIIM6RUthg/aFzyQkqFOFSDX9HoLPKsEdao7WNq</ds:X509Certificate><ds:X509Certificate>MIIFWTCCBEGgAwIBAgIQPXjX+XZJYLJhffTwHsqGKjANBgkqhkiG9w0BAQsFADCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMjEwMDAwMDAwWhcNMjMxMjA5MjM1OTU5WjB/MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxMDAuBgNVBAMTJ1N5bWFudGVjIENsYXNzIDMgU0hBMjU2IENvZGUgU2lnbmluZyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJeDHgAWryyx0gjE12iTUWAecfbiR7TbWE0jYmq0v1obUfejDRh3aLvYNqsvIVDanvPnXydOC8KXyAlwk6naXA1OpA2RoLTsFM6RclQuzqPbROlSGz9BPMpK5KrA6DmrU8wh0MzPf5vmwsxYaoIV7j02zxzFlwckjvF7vjEtPW7ctZlCn0thlV8ccO4XfduL5WGJeMdoG68ReBqYrsRVR1PZszLWoQ5GQMWXkorRU6eZW4U1V9Pqk2JhIArHMHckEU1ig7a6e2iCMe5lyt/51Y2yNdyMK29qclxghJzyDJRewFZSAEjM0/ilfd4v1xPkOKiE1Ua4E4bCG53qWjjdm9sCAwEAAaOCAYMwggF/MC8GCCsGAQUFBwEBBCMwITAfBggrBgEFBQcwAYYTaHR0cDovL3MyLnN5bWNiLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMGwGA1UdIARlMGMwYQYLYIZIAYb4RQEHFwMwUjAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNiLmNvbS9wY2EzLWc1LmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwMwDgYDVR0PAQH/BAQDAgEGMCkGA1UdEQQiMCCkHjAcMRowGAYDVQQDExFTeW1hbnRlY1BLSS0xLTU2NzAdBgNVHQ4EFgQUljtT8Hkzl699g+8uK8zKt4YecmYwHwYDVR0jBBgwFoAUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMwDQYJKoZIhvcNAQELBQADggEBABOFGh5pqTf3oL2kr34dYVP+nYxeDKZ1HngXI9397BoDVTn7cZXHZVqnjjDSRFph23Bv2iEFwi5zuknx0ZP+XcnNXgPgiZ4/dB7X9ziLqdbPuzUvM1ioklbRyE07guZ5hBb8KLCxR/Mdoj7uh9mmf6RWpT+thC4p3ny8qKqjPQQB6rqTog5QIikXTIfkOhFf1qQliZsFay+0yQFMJ3sLrBkFIqBgFT/ayftNTI/7cmd3/SeUx7o1DohJ/o39KK9KEr0Ns5cF3kQMFfo2KwPcwVAB8aERXRTl4r0nS1S+K4ReD6bDdAUK75fDiSKxH3fzvc1D1PFMqT+1i4SvZPLQFCE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1571150774"><xades:SignedProperties Id="SignedProperties-692556418"><xades:SignedSignatureProperties><xades:SigningTime>2015-07-30T14:37:55.139Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>JWm5hAuOwecAoZbmTfoWt4xGXpk=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Symantec Class 3 SHA256 Code Signing CA, OU=Symantec Trust Network, O=Symantec Corporation, C=US</ds:X509IssuerName><ds:X509SerialNumber>20774764403894310179047588971142595098</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>TrbVeEmbHM9fWB6tVr49m2dEpeU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign\, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign\, Inc., C=US</ds:X509IssuerName><ds:X509SerialNumber>33037644167568058970164719475676101450</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>AHeQ9lYdrYmwvNhVhXYkleNY+KU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU=(c) 2006 VeriSign\, Inc. - For authorized use only, OU=VeriSign Trust Network, O=VeriSign\, Inc., C=US</ds:X509IssuerName><ds:X509SerialNumber>81710363848389238104995526639509734954</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied></xades:SignaturePolicyImplied></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties></xades:SignedProperties><xades:UnsignedProperties><xades:UnsignedSignatureProperties><xades:SignatureTimeStamp><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod><xades:EncapsulatedTimeStamp Encoding="http://uri.etsi.org/01903/v1.2.2#DER">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</xades:EncapsulatedTimeStamp></xades:SignatureTimeStamp></xades:UnsignedSignatureProperties></xades:UnsignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+</manifest>
