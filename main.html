@@ -135,12 +135,14 @@
 
 	<!-- App Title - Edit This Section -->
 		Analyze Disk
-            <div>
-                <a id="devpage" href="http://factory.snapback-apps.com/app/analyze-disk/" title="Analyze Disk Collaboration and Development" style="text-decoration:none">Connect with Developers Here!</a>
-				&nbsp;|&nbsp;
-				<a id="webapp" href="http://snapback-apps.com/analyzedisk/main.html" title="View this App on the Web and in your Browser">View App on the Web</a>
-   			</div>
 	<!-- End App Title -->
+			
+			<!-- Share App Function - DO NOT EDIT -->
+			<div>
+				<a id="webapp" onclick="copyToClipboard(document.getElementById('appurl').innerHTML)" title="Share this App by Copying it's URL">Share this App</a>
+				<div id="appurl" style="visibility: hidden;">http://snapback-apps.com/analyzedisk/main.html</div>
+			</div>			
+			<!--End Share App Function -->
 
 <script type="text/javascript" src="../common/template/header2.js"></script>
 <!-- ************************************************ -->
@@ -186,14 +188,15 @@
 <div id="tab1">
 		
 	<div id="main-side">
-		<strong>NEED HELP?</strong><br />
-		<a id="helpers" href="http://factory.snapback-apps.com/app/analyze-disk/" title="Analyze Disk">Analyze Disk Connect Page</a><br>
+		<strong>NEED HELP?</strong><br /><br />
+		<a id="devpage" href="http://factory.snapback-apps.com/app/analyze-disk/" title="Analyze Disk Collaboration and Development" style="text-decoration:none">Connect with Developers</a><br /><br />
 		<p>Thanks for using our App.  Join us and help by visiting our home page!</p>
 				
 		<hr />
 								
-		<p><a id="standarduser" href="#" title="This will be a Standard Link for Users to Help Develop the SnapBack Apps Project">Help us help you! Improve the SnapBack Apps Project</a></p>
-
+		<strong>HELP US</strong><br /><br />		
+		<a id="standarduser" href="http://factory.snapback-apps.com/" title="This will be a Standard Link for Users to Help Develop the SnapBack Apps Project">Improve SnapBack Apps</a><br><br />
+		<p>We need your help to improve SnapBack Apps.  Help us build!</p>
 	</div>
 			
     <p>This App checks the System log for hard drive and NTFS errors, and tells you how many were found. If errors were found and you do not feel comfortable trying to resolve yourself, you can print out or E-Mail the report this App generates and show it to a computer professional.</p>
